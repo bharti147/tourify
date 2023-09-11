@@ -1,0 +1,51 @@
+@import './colors.scss';
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    padding: 1rem 0.75rem;
+    top: 0;
+    z-index: 99;
+    // border: 1px solid red;
+    
+    >h1{
+        font-family: 'Lilita One';
+        font-size: 2.5rem;
+        color: $first;
+        letter-spacing: .10rem;
+      text-shadow:2px 3px 8px $second;
+    
+      
+    
+
+    }
+    main{
+        height: 50%;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        // border: 1px solid black;
+        width: 50%;
+        font-family: $text2;
+        color: $fourth;
+        font-size: 1.25rem;
+        font-weight: 500;
+
+        p{
+            cursor: pointer;
+
+            &:hover{
+          color: rgb(219, 140, 43);
+            }
+        }
+    }
+    .icons{
+        color: $first;
+        
+       
+    }
+}
