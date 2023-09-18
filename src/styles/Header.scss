@@ -9,7 +9,7 @@ nav{
     position: sticky;
     padding: 1rem 0.75rem;
     top: 0;
-    z-index: 99;
+    z-index: 9999;
     // border: 1px solid red;
     
     >h1{
@@ -23,6 +23,12 @@ nav{
     
 
     }
+
+    .bars{
+       
+      display: none;
+
+    }
     main{
         height: 50%;
         align-items: center;
@@ -30,14 +36,15 @@ nav{
         justify-content: space-around;
         // border: 1px solid black;
         width: 50%;
+        // background-color: antiquewhite;  
         font-family: $text2;
         color: $fourth;
-        font-size: 1.25rem;
+       
         font-weight: 500;
 
         p{
             cursor: pointer;
-
+            font-size: 1.35rem;
             &:hover{
           color: rgb(219, 140, 43);
             }
@@ -48,4 +55,5 @@ nav{
         
        
     }
+   
 }

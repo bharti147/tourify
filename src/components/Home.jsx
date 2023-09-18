@@ -5,6 +5,7 @@ import pic2 from '../assets/pic2.png';
 import pic3 from '../assets/pic3.png';
 function Home() {
   return (
+    <>
     <div className='home'>
    <main>
    <div>   
@@ -20,6 +21,13 @@ function Home() {
 
    </div>
     </div>
+    <div className='home2'>
+      <h1>Get a Virtual Tour of your dream destination</h1>
+      <main>
+        
+      </main>
+    </div>
+    </>
   )
 }
 

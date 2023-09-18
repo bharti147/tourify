@@ -1,0 +1,173 @@
+@import './colors.scss';
+
+
+
+@media screen  and (max-width:480px) and (min-width:320px){
+    nav{
+        height: auto;
+        // border:1px solid red;
+        flex-direction: column;
+        // background-color: rgb(158, 176, 167);
+  >h1{
+
+    display: none;
+  }
+  .bars{
+    display: flex;
+    //  border: 1px solid red;
+     width: 100%;
+     justify-content: flex-end;
+    //  background-color: rgb(158, 176, 167);
+  }
+  main{
+    flex-direction: column;
+   
+    height: auto;
+   
+    width: 100%;
+    // border:1px solid red;
+    //  background-color: rgb(158, 176, 167);
+  
+
+    p{
+        padding: 1.25rem;
+        width: 100%;
+text-align: center;
+        &:hover{
+            background-color: rgb(158, 176, 167);
+            color: rgb(94, 78, 78);
+            cursor: pointer;
+        }
+    }
+    
+  }
+  .user{
+    display: none;
+  }
+    }
+    .home{
+// display:none;
+    }
+}
+@media screen  and (max-width:1024px) and (min-width:720px){
+nav{
+    // border: 2px solid red;
+    >h1{
+        display: none;
+    }
+    main{
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     
+     p{
+        padding: 0 3rem;
+        font-size: 1.2rem;
+     }
+    }
+    .bars{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+}
+}
+@media screen  and (max-width:720px) and (min-width:480px){
+    nav{
+        height: auto;
+        // border:1px solid red;
+        flex-direction: column;
+        // background-color: rgb(158, 176, 167);
+        background-color: rgba(40, 36, 36, .75);
+        backdrop-filter: blurr(4px);
+  >h1{
+
+    display: none;
+  }
+  .bars{
+    display: flex;
+    //  border: 1px solid red;
+     width: 100%;
+     justify-content: flex-end;
+    //  background-color: rgb(158, 176, 167);
+  }
+  main{
+    flex-direction: column;
+   
+    height: auto;
+   
+    width: 100%;
+    // border:1px solid red;
+    //  background-color: rgb(158, 176, 167);
+  
+
+    p{
+        padding: 1.25rem;
+        width: 100%;
+text-align: center;
+        &:hover{
+            background-color: rgb(158, 176, 167);
+            color: rgb(94, 78, 78);
+            cursor: pointer;
+        }
+    }
+    
+  }
+  .user{
+    display: none;
+  }
+    }
+    .home{
+// display:none;
+    }
+}
+@media screen  and (max-width:480px) and (min-width:320px){
+    nav{
+        height: auto;
+        // border:1px solid red;
+        flex-direction: column;
+        // background-color: rgb(158, 176, 167);
+        background-color: rgba(40, 36, 36, .75);
+        backdrop-filter: blurr(4px);
+  >h1{
+
+    display: none;
+  }
+  .bars{
+    display: flex;
+    //  border: 1px solid red;
+     width: 100%;
+     justify-content: flex-end;
+    //  background-color: rgb(158, 176, 167);
+  }
+  main{
+    flex-direction: column;
+   
+    height: auto;
+   
+    width: 100%;
+    // border:1px solid red;
+    //  background-color: rgb(158, 176, 167);
+  
+
+    p{
+        padding: 1.25rem;
+        width: 100%;
+text-align: center;
+        &:hover{
+            background-color: rgb(158, 176, 167);
+            color: rgb(94, 78, 78);
+            cursor: pointer;
+        }
+    }
+    
+  }
+  .user{
+    display: none;
+  }
+    }
+    .home{
+// display:none;
+    }
+}
