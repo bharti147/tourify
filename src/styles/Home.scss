@@ -108,10 +108,62 @@ button{
     height: auto;
     width: 100%;
     align-items: center;
-    border: 1px solid red;
+    // border: 1px solid red;
     justify-content: center;
+    flex-direction: column;
 
     >h1{
         font: 600 3rem $text2;
+        color: $first;
+    text-shadow: 1px 1px 1px black;
+    padding: 2rem;
     }
+main{
+
+    height: 90vh;
+margin: 2rem;
+    // border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: $first;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+
+    >h1{
+        padding: 1rem;
+        font: 700 2.5rem $text2;
+        color:rgb(53, 52, 52) ;
+    }
+    >div{
+        display: flex;
+        width: 90%;
+        height: 90%;
+      
+        justify-content: space-between;
+        // border:1px solid green;
+        align-items: center;
+        
+       img{
+  
+      height: 100%;
+      padding: 2rem;
+      margin-right: 1rem;
+    }
+    p{
+        padding: 2rem;
+        font: 400 1.25rem $text2;
+        text-align: center;
+
+        span{
+            font: 500 1.75rem $text2;
+            color:rgb(53, 52, 52) ;
+        }
+        
+    }
+}
+}
 }

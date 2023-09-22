@@ -3,6 +3,11 @@ import '../styles/Home.scss';
 import pic1 from '../assets/pic1.jpg';
 import pic2 from '../assets/pic2.png';
 import pic3 from '../assets/pic3.png';
+import golden from '../assets/golden.jpg';
+import waga from '../assets/waga.jpg';
+import jbagh from '../assets/jbagh.jpeg';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 function Home() {
   return (
     <>
@@ -21,12 +26,7 @@ function Home() {
 
    </div>
     </div>
-    <div className='home2'>
-      <h1>Get a Virtual Tour of your dream destination</h1>
-      <main>
-        
-      </main>
-    </div>
+   
     </>
   )
 }

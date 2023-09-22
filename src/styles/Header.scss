@@ -11,6 +11,9 @@ nav{
     top: 0;
     z-index: 9999;
     // border: 1px solid red;
+    background-color: rgba(175,195,185, 0.75);
+    
+    backdrop-filter: blurr(4px);
     
     >h1{
         font-family: 'Lilita One';
